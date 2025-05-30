@@ -4,11 +4,12 @@ import { motion } from "framer-motion";
 import axios from "axios";
 import toast from "react-hot-toast";
 import Typewriter from "typewriter-effect";
+import BentoGrid from "../BentoGrid/BentoGrid";
 
 const Home = () => {
   return (
     <div>
-      <SlideIn />
+      <BentoGrid />
     </div>
   );
 };

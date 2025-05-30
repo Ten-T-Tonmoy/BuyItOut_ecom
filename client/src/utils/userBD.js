@@ -4,9 +4,10 @@
 
 export const userInfo = {
   userId: "u1",
+  name: "Bill Saxby",
   address: "123 Main Street, Downtown, City 12345",
   phone: "555-0123",
-  email: "john.doe@email.com",
+  email: "whatever@email.com",
   profilePic: "/images/users/u1-profile.jpg",
   favorites: ["p2", "p7", "p20", "p28", "p43"], // Smartphone, Tablet, Coffee Maker, Face Cream, Fiction Novel
   ratings: [

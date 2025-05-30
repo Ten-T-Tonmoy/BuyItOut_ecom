@@ -17,23 +17,16 @@
  * products-> stock update->saleHistory update->ratings update
  */
 
-export const categories = [
-  "electronics",
-  "fashion",
-  "home",
-  "beauty",
-  "sports",
-  "books",
-];
+//total 48 entries on db now
 
-export const categories = [
-  "electronics",
-  "fashion",
-  "home",
-  "beauty",
-  "sports",
-  "books",
-];
+export const categories = {
+  electronics: 10,
+  fashion: 8,
+  home: 9,
+  beauty: 7,
+  sports: 8,
+  books: 6,
+};
 
 export const products = [
   // Electronics (10 products)
