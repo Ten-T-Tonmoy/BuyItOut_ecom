@@ -13,17 +13,17 @@ import BelowNav from "./BelowNav";
 const NavBar = () => {
   return (
     <>
-      <div className="w-[100vw items-center  py-4 border border-gray-300/80 flex justify-between px-4 sm:px-10">
+      <div className="w-[100vw items-center  py-5 border border-gray-300/80 flex justify-between px-4 sm:px-[5vw]">
         <div className="text-[1.5rem] font-extrabold">BuyItOut</div>
         <div className="w-[50%] relative sm:w-[70%]">
           <input
             placeholder="Search for products ..."
             type="text"
             className="border focus:border-gray-400
-          outline-none py-2 px-3 rounded-md w-full border-gray-300/80 "
+          outline-none py-[6px] px-3 rounded-md w-full border-gray-300/80 "
           />
           <IoSearchOutline
-            className="absolute top-[17px] cursor-pointer
+            className="absolute top-[13px] cursor-pointer
           hover:scale-125 right-3"
           />
         </div>

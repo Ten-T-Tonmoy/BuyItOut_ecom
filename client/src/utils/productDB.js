@@ -19,14 +19,32 @@
 
 //total 48 entries on db now
 
-export const categories = {
-  electronics: 10,
-  fashion: 8,
-  home: 9,
-  beauty: 7,
-  sports: 8,
-  books: 6,
-};
+export const categories = [
+  {
+    name: "electronics",
+    quantity: 10,
+  },
+  {
+    name: "fashion",
+    quantity: 8,
+  },
+  {
+    name: "home",
+    quantity: 9,
+  },
+  {
+    name: "beauty",
+    quantity: 7,
+  },
+  {
+    name: "sports",
+    quantity: 8,
+  },
+  {
+    name: "books",
+    quantity: 6,
+  },
+];
 
 export const products = [
   // Electronics (10 products)
