@@ -9,7 +9,7 @@ import HeroSlider from "./Hero";
 
 const Home = () => {
   return (
-    <div>
+    <div className="w-[100vw]">
       <HeroSlider />
       <BentoGrid />
     </div>
