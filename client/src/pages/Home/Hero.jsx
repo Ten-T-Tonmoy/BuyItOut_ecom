@@ -193,7 +193,7 @@ const Hero = () => {
       ></motion.div>
       <motion.div
         className="absolute top-[75%]  left-[39%]
-       w-4 h-4 bg-gradient-to-l from-blue-400
+       w-4 h-4 bg-gradient-to-l from-blue-600
        to-cyan-400 rounded-full opacity-70
       "
         animate={{
@@ -209,7 +209,7 @@ const Hero = () => {
       ></motion.div>
       <motion.div
         className="absolute top-56 sm:top-[50%] right-10
-      sm:right-35 w-4 h-4 bg-gradient-to-r from-purle-400
+      sm:right-35 w-4 h-4 bg-gradient-to-r from-purple-400
        to-pink-400 rounded-full opacity-60
       "
         animate={{

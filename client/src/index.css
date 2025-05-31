@@ -4,3 +4,23 @@
 @plugin "daisyui" {
   themes: light --default;
 }
+
+:body {
+  font: Inter;
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 8px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.scroll-container:hover::-webkit-scrollbar {
+  opacity: 1;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 100, 100, 0.5);
+  border-radius: 4px;
+}
+

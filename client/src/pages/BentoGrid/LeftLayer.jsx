@@ -14,7 +14,7 @@ export default LeftLayer;
 const Category = () => {
   const categs = categories;
   return (
-    <div className="">
+    <div className="justify-self-center ">
       {categs.map((el, key) => {
         <div key={key}>{el.name}</div>;
       })}

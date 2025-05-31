@@ -4,7 +4,7 @@ import TrippleGrid from "./TrippleGrid";
 
 const BentoGrid = () => {
   return (
-    <div className="sm:grid-cols-2 grid grid-cols-1">
+    <div className="md:grid-cols-[26%_74%] md:p-[5vw] grid grid-cols-1">
       <LeftLayer />
       <TrippleGrid />
     </div>
