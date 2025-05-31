@@ -5,10 +5,12 @@ import axios from "axios";
 import toast from "react-hot-toast";
 import Typewriter from "typewriter-effect";
 import BentoGrid from "../BentoGrid/BentoGrid";
+import HeroSlider from "./Hero";
 
 const Home = () => {
   return (
     <div>
+      <HeroSlider />
       <BentoGrid />
     </div>
   );
